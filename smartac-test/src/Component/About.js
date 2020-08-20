@@ -9,7 +9,7 @@ class About extends Component {
         <div className="texasSeal">
           <img
             id="texas-seal"
-            src="../public/assets/tx-seal.png"
+            src="../assets/tx-seal.png"
             alt="texas seal"
           ></img>
           <h2>About Texas</h2>
@@ -17,7 +17,7 @@ class About extends Component {
         <div className="flagDiv">
           <img
             id="texas-flag"
-            src="../public/assets/tx-flag.png"
+            src="../assets/tx-flag.png"
             alt="texas flag"
           ></img>
           <p>
@@ -72,7 +72,7 @@ class About extends Component {
           </p>
           <img
             id="texas-map"
-            src="../public/assets/tx-map.png"
+            src="../assets/tx-map.png"
             alt="texas map"
           ></img>
         </div>
