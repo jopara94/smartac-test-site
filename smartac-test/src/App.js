@@ -35,7 +35,7 @@ class App extends Component {
           <div className="header-image">
             <img
               id="texas-header"
-              src="../assets/tx-logo.png"
+              src="/assets/tx-logo.png"
               alt="texas logo"
             ></img>
             <h3>Texas</h3>

@@ -9,17 +9,19 @@ class About extends Component {
         <div className="texasSeal">
           <img
             id="texas-seal"
-            src="../assets/tx-seal.png"
+            src="/assets/tx-seal.png"
             alt="texas seal"
           ></img>
           <h2>About Texas</h2>
         </div>
         <div className="flagDiv">
-          <img
+        <div className="imageDiv">
+        <img
             id="texas-flag"
-            src="../assets/tx-flag.png"
+            src="/assets/tx-flag.png"
             alt="texas flag"
           ></img>
+        </div>
           <p>
             Texas is a state in the South Central Region of the United States.
             It is the second largest U.S. state by both area (after Alaska) and
@@ -70,11 +72,13 @@ class About extends Component {
             representation in the federal government, Texas entered a long
             period of economic stagnation.
           </p>
+          <div className="imageDiv">
           <img
             id="texas-map"
-            src="../assets/tx-map.png"
+            src="/assets/tx-map.jpg"
             alt="texas map"
           ></img>
+          </div>
         </div>
       </div>
     );

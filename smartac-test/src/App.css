@@ -1,3 +1,6 @@
+.App {
+ 
+}
 .appHeader {
   min-height: 40px;
   width: auto;
@@ -5,12 +8,17 @@
   flex-direction: row;
   justify-content: space-between;
 }
+#texas-header {
+  height: 40px;
+  padding-right: 10px;
+}
 .header-image {
   min-width: 70px;
   height: 40px;
   display: flex;
   flex-direction: row;
   padding: 20px;
+  
 }
 .headerLinks {
   min-width: 70px;
@@ -27,7 +35,6 @@
 }
 
 button {
-  background-color: none;
   border: none;
   color: black;
   text-align: center;
