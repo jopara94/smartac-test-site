@@ -1,0 +1,60 @@
+.texasSeal {
+    min-height: 100px;
+    text-align: center;
+  }
+  .flagDiv {
+    display: flex;
+    flex-direction: row;
+  }
+  .mapDiv {
+    display: flex;
+    flex-direction: row;
+  }
+  #texas-flag {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  #texas-map {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .About {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (max-width: 768px) {
+    .flagDiv {
+        display: flex;
+        flex-direction: column;
+    }
+    .flagDiv img {
+        text-align: center;
+    }
+    .mapDiv {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mapDiv img {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1026px) {
+    .flagDiv {
+        display: flex;
+        flex-direction: column;
+    }
+    .flagDiv img {
+        text-align: center;
+    }
+    .mapDiv {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mapDiv img {
+        text-align: center;
+    }
+}
